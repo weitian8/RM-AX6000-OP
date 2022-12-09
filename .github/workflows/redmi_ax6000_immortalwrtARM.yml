@@ -155,7 +155,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "::set-output name=release_tag::redmi_ax6000_hanwckf_$(date +"%Y.%m.%d-%H%M")"
+        echo "::set-output name=release_tag::redmi_ax6000_padavanonly-uboot_$(date +"%Y.%m.%d-%H%M")"
         touch release.txt
         echo "redmi_ax6000_hanwckf firmware" >> release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
