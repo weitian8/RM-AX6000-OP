@@ -32,5 +32,5 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 ./scripts/feeds update -i && ./scripts/feeds install -a
 
 # 安装luci-app-vlmcsd
-git clone https://github.com/flytosky-f/luci-app-vlmcsd.git package/luci-app-vlmcsd
-git clone https://github.com/flytosky-f/openwrt-vlmcsd.git package/openwrt-vlmcsd
+# git clone https://github.com/flytosky-f/luci-app-vlmcsd.git package/luci-app-vlmcsd
+# git clone https://github.com/flytosky-f/openwrt-vlmcsd.git package/openwrt-vlmcsd
