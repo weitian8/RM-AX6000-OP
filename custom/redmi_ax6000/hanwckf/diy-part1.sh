@@ -32,4 +32,4 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 ./scripts/feeds update -i && ./scripts/feeds install -a
 
 # themes
-# git clone https://github.com/solidus1983/luci-theme-opentomato package/luci-theme-opentomato
+git clone https://github.com/solidus1983/luci-theme-opentomato package/luci-theme-opentomato
