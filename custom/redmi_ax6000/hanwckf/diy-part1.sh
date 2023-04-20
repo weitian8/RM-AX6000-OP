@@ -27,9 +27,9 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # ./scripts/feeds uninstall luci-app-mosdns mosdns v2ray-geodata
 # ./scripts/feeds install -f -p mosdns mosdns luci-app-mosdns
-find ./ -name v2ray-geodata | xargs rm -rf
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-./scripts/feeds update -i && ./scripts/feeds install -a
+# find ./ -name v2ray-geodata | xargs rm -rf
+# git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+# ./scripts/feeds update -i && ./scripts/feeds install -a
 
 # themes
 # git clone https://github.com/solidus1983/luci-theme-opentomato package/luci-theme-opentomato
