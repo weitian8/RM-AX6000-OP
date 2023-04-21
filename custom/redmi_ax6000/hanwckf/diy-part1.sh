@@ -19,23 +19,20 @@
 # ./scripts/feeds update -a && ./scripts/feeds install -a
 # sed -i '$a src-git mosdns https://github.com/sbwml/luci-app-mosdns' feeds.conf.default
 
-# ./scripts/feeds uninstall luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf feeds/luci/applications/chinadns-ng
-rm -rf feeds/luci/applications/dns2socks
-rm -rf feeds/luci/applications/dns2tcp
-rm -rf feeds/luci/applications/microsocks
-rm -rf feeds/luci/applications/shadowsocks-rust
-rm -rf feeds/luci/applications/shadowsocksr-libev
-rm -rf feeds/luci/applications/simple-obfs
-rm -rf feeds/luci/applications/tcping
-rm -rf feeds/luci/applications/trojan-go
-rm -rf feeds/luci/applications/trojan-plus
-rm -rf feeds/luci/applications/v2ray-core
-rm -rf feeds/luci/applications/v2ray-geodata
-rm -rf feeds/luci/applications/v2ray-plugin
-rm -rf feeds/luci/applications/xray-core
-rm -rf feeds/luci/applications/xray-plugin
+rm -rf feeds/packages/net/dns2socks
+rm -rf feeds/packages/net/dns2tcp
+rm -rf feeds/packages/net/microsocks
+rm -rf feeds/packages/net/shadowsocks-rust
+rm -rf feeds/packages/net/shadowsocksr-libev
+rm -rf feeds/packages/net/simple-obfs
+rm -rf feeds/packages/net/tcping
+rm -rf feeds/packages/net/trojan-plus
+rm -rf feeds/packages/net/v2ray-core
+rm -rf feeds/packages/net/v2ray-geodata
+rm -rf feeds/packages/net/v2ray-plugin
+rm -rf feeds/packages/net/xray-core
+rm -rf feeds/packages/net/xray-plugin
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 ./scripts/feeds update -a
