@@ -16,20 +16,14 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-./scripts/feeds update -a && ./scripts/feeds install -a
+# ./scripts/feeds update -a && ./scripts/feeds install -a
 # sed -i '$a src-git mosdns https://github.com/sbwml/luci-app-mosdns' feeds.conf.default
-./scripts/feeds uninstall luci-app-passwall
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-./scripts/feeds update -a
-./scripts/feeds install -a -f -p kenzo
-./scripts/feeds install -a -f -p small
+# ./scripts/feeds uninstall luci-app-passwall
+# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+# ./scripts/feeds update -a
+# ./scripts/feeds install -a -f -p kenzo
+# ./scripts/feeds install -a -f -p small
 
-# ./scripts/feeds uninstall luci-app-mosdns mosdns v2ray-geodata
-# ./scripts/feeds install -f -p mosdns mosdns luci-app-mosdns
-# find ./ -name v2ray-geodata | xargs rm -rf
-# git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-# ./scripts/feeds update -i && ./scripts/feeds install -a
+sed -i '$a src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 
-# themes
-# git clone https://github.com/solidus1983/luci-theme-opentomato package/luci-theme-opentomato
