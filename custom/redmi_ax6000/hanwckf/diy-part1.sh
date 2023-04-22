@@ -18,12 +18,12 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # ./scripts/feeds update -a && ./scripts/feeds install -a
 # sed -i '$a src-git mosdns https://github.com/sbwml/luci-app-mosdns' feeds.conf.default
-rm -rf feeds/luci/applications/luci-app-passwall
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-./scripts/feeds update -a
-./scripts/feeds install -a -f -p kenzo
-./scripts/feeds install -a -f -p small
+# rm -rf feeds/luci/applications/luci-app-passwall
+# sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+# ./scripts/feeds update -a
+# ./scripts/feeds install -a -f -p kenzo
+# ./scripts/feeds install -a -f -p small
 
 # sed -i '$a src-git openwrt_kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 
