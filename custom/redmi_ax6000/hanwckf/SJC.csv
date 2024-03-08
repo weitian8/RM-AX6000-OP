@@ -1,0 +1,11 @@
+﻿IP地址,端口,回源端口,TLS,数据中心,地区,城市,TCP延迟(ms),速度(MB/s)
+38.59.244.76,33963,443,true,SJC,North America,San Jose,172,15.72
+37.123.193.163,1234,443,true,SJC,North America,San Jose,167,15.61
+38.59.249.142,20656,443,true,SJC,North America,San Jose,163,15.40
+38.59.249.192,55000,443,true,SJC,North America,San Jose,163,13.86
+37.123.193.49,18008,443,true,SJC,North America,San Jose,177,11.70
+38.59.241.39,10000,443,true,SJC,North America,San Jose,162,11.44
+37.123.193.52,13307,443,true,SJC,North America,San Jose,194,10.51
+65.75.195.188,43879,443,true,SJC,North America,San Jose,221,10.15
+185.148.15.35,21586,443,true,SJC,North America,San Jose,165,9.61
+65.75.193.13,51144,443,true,SJC,North America,San Jose,265,9.13
