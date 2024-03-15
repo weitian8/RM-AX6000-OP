@@ -1,21 +1,2 @@
 ﻿IP地址,端口,回源端口,TLS,数据中心,地区,城市,TCP延迟(ms),速度(MB/s)
-38.59.244.76,33963,443,true,SJC,North America,San Jose,172,15.72
-37.123.193.163,1234,443,true,SJC,North America,San Jose,167,15.61
-38.59.249.142,20656,443,true,SJC,North America,San Jose,163,15.40
-38.59.249.192,55000,443,true,SJC,North America,San Jose,163,13.86
-37.123.193.49,18008,443,true,SJC,North America,San Jose,177,11.70
-37.123.193.52,13307,443,true,SJC,North America,San Jose,194,10.51
-65.75.195.188,43879,443,true,SJC,North America,San Jose,221,10.15
-65.75.193.13,51144,443,true,SJC,North America,San Jose,265,9.13
-38.59.243.19,39689,443,true,SJC,North America,San Jose,161,18.22
-37.123.193.132,35668,443,true,SJC,North America,San Jose,164,12.00
-202.139.228.235,28888,443,true,HKG,Asia Pacific,Hong Kong,73,27.74
-151.145.69.105,8443,8443,true,HKG,Asia Pacific,Hong Kong,119,16.85
-202.139.228.24,12321,443,true,HKG,Asia Pacific,Hong Kong,74,16.02
-141.147.178.135,2083,2083,true,HKG,Asia Pacific,Hong Kong,117,15.86
-147.78.247.218,15562,443,true,HKG,Asia Pacific,Hong Kong,74,18.24
-131.186.59.232,2083,2083,true,HKG,Asia Pacific,Hong Kong,137,17.09
-194.104.147.163,5772,443,true,HKG,Asia Pacific,Hong Kong,69,17.03
-103.148.72.116,20443,443,true,HKG,Asia Pacific,Hong Kong,77,20.53
-202.139.228.24,12321,443,true,HKG,Asia Pacific,Hong Kong,73,22.46
-141.147.178.135,2053,2053,true,HKG,Asia Pacific,Hong Kong,222,19.86
+
